@@ -3,7 +3,7 @@
 Projet ESP-IDF : un ESP32 se connecte en Wi-Fi (mode station), lit la temperature et l'humidite d'un capteur **DHT11**, puis les envoie periodiquement a **ThingSpeak** par requete **HTTP POST**.
 
 > TP3 - Systemes embarques / IoT - ENICarthage
-
+https://github.com/souhaattia/esp32-dht11-http-thingspeak/blob/main/Demo/video_x2.mp4
 ## Fonctionnalites
 
 - Wi-Fi station avec reconnexion automatique (EventGroup + gestionnaire d'evenements)
