@@ -1,0 +1,19 @@
+menu "TP: Configuration Wi‐Fi, DHT et ThingSpeak"
+config TP_WIFI_SSID
+string "Wi‐Fi SSID"
+default "YOUR_SSID"
+config TP_WIFI_PASS
+string "Wi‐Fi Password"
+default "YOUR_PASS"
+config TP_TS_API_KEY
+string "ThingSpeak WRITE API Key"
+default "YOUR_API_KEY"
+config TP_DHT_GPIO
+int "GPIO du DHT (DATA)"
+default 4
+range 0 39
+config TP_POST_PERIOD_S
+int "Période d'envoi (s) – >= 5"
+default 5
+range 5 3600
+endmenu

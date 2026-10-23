@@ -1,0 +1,12 @@
+﻿# Build ESP-IDF
+build/
+managed_components/
+dependencies.lock
+
+# Config locale (contient Wi-Fi + cle API)
+sdkconfig
+sdkconfig.old
+
+# VS Code / systeme
+.vscode/
+*.log
